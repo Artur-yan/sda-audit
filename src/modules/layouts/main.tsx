@@ -10,11 +10,11 @@ const Main = function (props:any) {
     } = props;
 
     return (
-        <div>
+        <div className='G-container'>
             <Route
               {...rest}
               render={matchProps => {
-                  return <ChildComponent className='G-page G-container' {...matchProps} />;
+                  return <ChildComponent className='G-page' {...matchProps} />;
               }}
             />
         </div>

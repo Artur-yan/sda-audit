@@ -8,6 +8,7 @@ import StateContext from "../contexsts/stateContext";
 import Paths from './paths';
 import {IUserModel} from "../platform/api/user/res/user-model";
 import AuthStorage from "../platform/services/storages/authStorage";
+import '../App.scss';
 
 const RoutContainer = () => {
 

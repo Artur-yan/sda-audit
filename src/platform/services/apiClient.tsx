@@ -17,8 +17,7 @@ export abstract class ApiClient {
   abstract controller: string;
 
   API_URI = environment.baseUrl
-  //demo url
-  //  'http://212.42.196.110:6122/'
+
 
   configs = {};
 

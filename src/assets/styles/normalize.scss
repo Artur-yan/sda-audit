@@ -2,7 +2,6 @@
 
 @font-face {
   font-family : 'Agenda';
-  src         : url('../fonts/font/ufonts.com_agenda-mediumcondensed.ttf');
 }
 
 * {
@@ -42,7 +41,6 @@ textarea, input, button, pre {
 
 input {
   height           : $input-height;
-  border           : 1px solid $light-gray;
   text-indent      : 10px;
   background-color : transparent;
   color            : $black;
@@ -52,7 +50,6 @@ input {
 textarea {
   width       : 100%;
   height      : calc(#{$input-height} + 10px);
-  border      : 1px solid $light-gray;
   max-height  : 400px;
   min-height  : calc(#{$input-height} + 40px);
   padding     : 10px;
@@ -78,9 +75,6 @@ i[class*=icon] {
   cursor : pointer;
 }
 
-.icon-delete {
-  color : $red;
-}
 
 a, button, label {
   cursor : pointer;
@@ -117,17 +111,6 @@ h6 {
 
 a, p {
   font-size : 16px;
-}
-
-*::-webkit-scrollbar-track, *::-ms-autohiding-scrollbar {
-  border-radius    : 2px;
-  background-color : $light;
-}
-
-*::-webkit-scrollbar {
-  width            : 4px;
-  height           : 8px;
-  background-color : $light;
 }
 
 *::-webkit-scrollbar-thumb {
